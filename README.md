@@ -1,19 +1,14 @@
 minijasminenode
 ======
 
-Experimental hack on minijasminenode v1.1.1, part of protractor v1.3.1, to reset state kept in certain properties, such that it allows relaunching protractor multiple times within the same NodeJS operating system process.
+Experimental hack on minijasminenode v1.1.1 originally by Julie Ralph ju.ralph@gmail.com, part of protractor v1.3.1, used by package asyncshell http://github.com/carrascoMDD/asyncshell to reset state kept in certain properties, such that it allows relaunching protractor multiple times within the same NodeJS operating system process.
 
 Based on Jasmine-Node, but minus the fancy stuff. This node.js module makes Pivotal Lab's Jasmine (http://github.com/pivotal/jasmine) spec framework available in node.js or via the command line.
 
-version notice
---------------
+original work
+-------------
 
-minijasminenode comes in two flavors.
-
- - minijasminenode runs [Jasmine 1.3](http://jasmine.github.io/1.3/introduction.html)
- - minijasminenode2 runs [Jasmine 2.0](http://jasmine.github.io/2.0/introduction.html)
-
-This is the branch for minijasminenode. [Switch to minijasminenode2](https://github.com/juliemr/minijasminenode/tree/jasmine2).
+[See original minijasminenode](https://github.com/juliemr/minijasminenode)
 
 features
 --------
